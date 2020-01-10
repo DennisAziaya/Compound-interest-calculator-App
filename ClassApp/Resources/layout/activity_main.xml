@@ -5,9 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
 
-    
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +18,7 @@
         android:height="120px"
         android:id="@+id/principleInvTxt"
         android:layout_gravity="right"
-        android:textSize="24px"
+        android:textSize="32px"
         android:foregroundGravity="center" />
     <EditText
         android:layout_width="match_parent"
@@ -28,7 +29,7 @@
         android:height="120px"
         android:id="@+id/interestTxt"
         android:layout_gravity="right"
-        android:textSize="24px"
+        android:textSize="32px"
         android:foregroundGravity="center" />
     <EditText
         android:layout_width="match_parent"
@@ -39,7 +40,7 @@
         android:height="120px"
         android:id="@+id/timesCompTxt"
         android:layout_gravity="right"
-        android:textSize="24px"
+        android:textSize="32px"
         android:foregroundGravity="center" />
     <EditText
         android:layout_width="match_parent"
@@ -50,19 +51,21 @@
         android:height="120px"
         android:id="@+id/yearInvTxt"
         android:layout_gravity="right"
-        android:textSize="24px"
-        android:foregroundGravity="center" />
+        android:textSize="32px"
+        android:foregroundGravity="center"
+        android:textColor="#fff3e5f5" />
     <Button
         android:text="Calculate final Investment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:height="80px"
-        android:textColor="#ff0d47a1"
-        android:textSize="24px"
-        android:id="@+id/calcBtn" />
+        android:textColor="#ffe3f2fd"
+        android:textSize="32px"
+        android:id="@+id/calcBtn"
+        android:background="#ff01579b" />
 
     <TextView
-        android:text="Final Investment is: "
+        android:text="final Investment "
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,8 +73,9 @@
         android:height="110px"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="#ff0d47a1"
-        android:textSize="32px" />
+        android:textColor="#ff1e88e5"
+        android:textSize="32px"
+        android:textStyle="italic" />
 
 
 </LinearLayout>
