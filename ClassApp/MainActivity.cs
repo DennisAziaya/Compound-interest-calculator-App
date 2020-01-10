@@ -58,7 +58,7 @@ namespace ClassApp
         void CalculateFinalInvestment()
         {
             InterestRate = InterestRate / 100;
-            FinalInvestment = Parse.double(String.format("{0:##}"))
+            FinalInvestment = double.Parse(String.Format("{0:0.##}", FinalInvestment));
             FinalInvestment = PricipleInvestment * Math.Pow((1 + (InterestRate * CompoundPerYear)), (CompoundPerYear * YearsInvested));
             Printfunction();
         }
